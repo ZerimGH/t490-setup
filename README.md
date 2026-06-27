@@ -31,7 +31,7 @@ From the top comment here, appending FREETYPE_PROPERTIES="cff:no-stem-darkening=
 
 # Firmware update
 Updating firmware is usually a good idea, especially if you bought an old laptop second-hand\
-Lenovo do firmware updates through the fwupd utility, install it with your package manager and run `fwupdmgr get-updates` in the terminal. I'm not sure how safe doing this is, but nothing's broken for me. After next reboot it will apply the changes, you should probably make sure the laptop doesn't die while updating.
+Lenovo do firmware updates through the fwupd utility, install it with your package manager and run `fwupdmgr update` in the terminal. I'm not sure how safe doing this is, but nothing's broken for me. After next reboot it will apply the changes, you should probably make sure the laptop doesn't die while updating.
 
 # BIOS options
 I haven't touched the bios much, all I would recommend doing is disabling secure boot, allowing legacy boot if you need it, disable any CPU features you don't want.\
