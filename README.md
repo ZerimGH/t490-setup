@@ -8,7 +8,8 @@ I don't exactly know how they work but these kernel parameters make the touchpad
 `acpi_osi=\"Windows 2015\"`\
 If using grub, these should be appended to GRUB_CMDLINE_LINUX_DEFAULT \
 \
-The generic libinput drivers work fine for me, I don't have an xorg configuration for the touchpad since I'm not on X11, the one shown in https://wiki.archlinux.org/title/Touchpad_Synaptics is a good base.
+The generic libinput drivers work fine for me, I don't have an xorg configuration for the touchpad since I'm not on X11, the one shown in https://wiki.archlinux.org/title/Touchpad_Synaptics is a good base.\
+This change causes tap-to-click not to work properly after waking from sleep if the laptop's been asleep for a while, I can't find a fix for now, so I have to reboot if the laptop sleeps for too long
 
 # Video acceleration
 Video acceleration usually doesn't work out of the box for me. Packages libva and intel-media-driver, or the distros equivalent are needed.\
